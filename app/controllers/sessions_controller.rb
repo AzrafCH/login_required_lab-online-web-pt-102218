@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-  def show 
+  def show
     @session = Session.find(params[:id])
-  end 
+  end
 end 
