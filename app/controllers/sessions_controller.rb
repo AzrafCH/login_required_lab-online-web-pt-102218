@@ -4,13 +4,13 @@ class SessionsController < ApplicationController
     @session = Session.find(params[:id])
   end
 
-  def index 
-  end 
+  def index
+  end
 
   def create
-  end 
+  end
 
-  def update 
-  end 
-  
+  def update
+  end
+
 end
